@@ -1,0 +1,9 @@
+service: Layers
+
+provider:
+    name: aws
+    runtime: nodejs12.x
+
+layers:
+    mongooseLayer:
+        path: mongooseLayer
